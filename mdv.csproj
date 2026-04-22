@@ -5,9 +5,27 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
+
+    <!-- dotnet tool packaging -->
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>mdv</ToolCommandName>
+
+    <!-- NuGet package metadata -->
+    <PackageId>mdv</PackageId>
+    <Description>A Terminal.Gui-based Markdown viewer for the terminal.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/gui-cs/mdv</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gui-cs/mdv</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>markdown;viewer;terminal;tui;terminal-gui</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="LICENSE" Pack="true" PackagePath="/" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.CommandLine" Version="2.0.6" />
