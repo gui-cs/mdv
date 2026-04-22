@@ -1,6 +1,6 @@
 # mdv - A Terminal.Gui-based Markdown viewer
 
-Opens an interative TUI markdown viewer with rendered Markdown with auto scrollbars (vertical + horizontal), a **StatusBar** with Quit, Content Width control, line count, file size, status, and spinner, and a **File selector** dropdown when viewing multiple files.
+Opens an interactive TUI markdown viewer with rendered Markdown with auto scrollbars (vertical + horizontal), a **StatusBar** with Quit, Content Width control, line count, file size, status, and spinner, and a **File selector** dropdown when viewing multiple files.
 
 When run with the `--print` option, it renders the markdown to the terminal and exits, without launching the interactive viewer.
 
