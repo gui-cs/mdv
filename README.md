@@ -28,7 +28,7 @@ Built with [Terminal.Gui](https://gui-cs.github.io/Terminal.Gui/).
 ## Install
 
 ```
-dotnet tool install -g mdv
+dotnet tool install -g Terminal.Gui.mdv
 ```
 
 ## Usage
