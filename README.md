@@ -8,6 +8,8 @@ When run with the `--print` option, it renders the markdown to the terminal and 
 
 Wildcards are supported: `mdv *.md`, `mdv docs/*.md`.
 
+Built with [Terminal.Gui](https://gui-cs.github.io/Terminal.Gui/).
+
 ## Supported Markdown Features
 
 - Headings (`#`, `##`, etc.)
@@ -75,3 +77,4 @@ dotnet build
 ```bash
 dotnet run -- README.md
 ```
+
