@@ -158,7 +158,7 @@ static void RenderMarkdown (string markdown, ThemeName syntaxTheme, int width, i
     {
         App = app,
         SyntaxHighlighter = new TextMateSyntaxHighlighter (syntaxTheme),
-        UseThemeBackground = true,
+        UseThemeBackground = false,
         ShowCopyButtons = false,
         Width = Dim.Fill (),
         Height = Dim.Fill (),
@@ -313,7 +313,7 @@ static void RunFullScreen (List<string> files, ThemeName syntaxTheme)
                                             };
 
     // Theme background toggle
-    CheckBox themeBgCheckBox = new () { Text = "Theme _BG", Value = CheckState.Checked };
+    CheckBox themeBgCheckBox = new () { Text = "Theme _BG", Value = markdownView.UseThemeBackground ? CheckState.Checked : CheckState.UnChecked };
 
     themeBgCheckBox.ValueChanged += (_, e) =>
                                     {
