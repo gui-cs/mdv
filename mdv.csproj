@@ -11,7 +11,7 @@
     <ToolCommandName>mdv</ToolCommandName>
 
     <!-- NuGet package metadata -->
-    <PackageId>TerminalGui.Mdv</PackageId>
+    <PackageId>Terminal.Gui.mdv</PackageId>
     <Description>A Terminal.Gui-based Markdown viewer for the terminal.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
