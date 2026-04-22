@@ -21,6 +21,12 @@ Wildcards are supported: `mdv *.md`, `mdv docs/*.md`.
 - Horizontal rules (`---`)
 - Syntax highlighting for code blocks (using ColorCode with various themes)
 
+## Install
+
+```
+dotnet tool install -g mdv
+```
+
 ## Usage
 
 ```
